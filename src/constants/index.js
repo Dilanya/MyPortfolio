@@ -1,3 +1,4 @@
+import { logo } from "../assets";
 import {
     mobile,
     backend,
@@ -23,6 +24,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    UniLogo,
+    esoft,
+    scc,
   } from "../assets";
   
   export const navLinks = [
@@ -54,7 +58,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "AI/ML Enthusiast",
       icon: creator,
     },
   ];
@@ -195,6 +199,29 @@ import {
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
+
+  const education = [
+    {
+      title: "University of Sri Jayewardenepura",
+      description:
+        "Bachelor of Science in Information and Com.Technology (UG)",
+      date: "2020 - Present",
+      image: UniLogo
+    },
+    {
+      title: "Esoft Metro Campus",
+      description:
+        "Diploma in English",
+      date: "2019 -  2020"
+    },
+    {
+      title: "Sanghabodhi College, Nittambuwa",
+      description:
+        "Upto GCE A/L - 2018", 
+        
+    },
+    
+  ];
   
   const projects = [
     {
@@ -262,4 +289,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, education };
