@@ -23,16 +23,8 @@ const EducationCard = ({ title, description,
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={date}
-      
-      icon={
-        <div className='flex justify-center items-center w-full h-full'>
-          <img
-            src={image}
-            
-            className='w-[60%] h-[60%] object-contain'
-          />
-        </div>
-      }>
+      iconStyle={{ background: '#1d1836', color: '#fff' }}
+      >
       
       <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{title}</h3>
