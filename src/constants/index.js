@@ -24,9 +24,9 @@ import {
     jobit,
     tripguide,
     threejs,
-    UniLogo,
-    esoft,
-    scc,
+    
+    
+    
   } from "../assets";
   
   export const navLinks = [
@@ -202,17 +202,18 @@ import {
 
   const education = [
     {
-      title: "University of Sri Jayewardenepura",
+      title: "University of Sri Jayewardenepura, Sri Lanka",
       description:
         "Bachelor of Science in Information and Com.Technology (UG)",
       date: "2020 - Present",
-      image: UniLogo
+      
     },
     {
       title: "Esoft Metro Campus",
       description:
         "Diploma in English",
-      date: "2019 -  2020"
+      date: "2019 -  2020",
+      
     },
     {
       title: "Sanghabodhi College, Nittambuwa",
