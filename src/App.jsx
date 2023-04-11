@@ -1,5 +1,5 @@
 import {BrowserRouter} from 'react-router-dom';
-import {About, Contact, Education, Certifications, Feedbacks, Hero, Navbar,
+import {About, Contact, Education, Certifications, Hero, Navbar,
 Tech, Works, StarsCanvas } from './components';
 
 
