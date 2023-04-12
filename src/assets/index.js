@@ -30,6 +30,14 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import postman from "./postman.png";
+import Link from "./link.png";
+import ai from "./ai.png";
+import Hackerrank from "./hackerrank.png";
+import dl from "./dl.png";
+import opencv from "./opencv.png";
+import comptia from "./comptia.png";
+
 export {
   logo,
   backend,
@@ -59,4 +67,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  postman,
+  Link,
+  ai,
+  Hackerrank,
+  dl,
+  opencv,
+  comptia
+
 };
