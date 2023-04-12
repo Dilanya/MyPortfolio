@@ -1,4 +1,4 @@
-import { logo } from "../assets";
+import { ai, logo } from "../assets";
 import {
     mobile,
     backend,
@@ -24,7 +24,11 @@ import {
     jobit,
     tripguide,
     threejs,
-    
+    postman,
+    Hackerrank,
+    dl,
+    opencv,
+    comptia
     
     
   } from "../assets";
@@ -197,8 +201,65 @@ import {
     },
     
   ];
+
+  const certificates = [
+    {
+      name: "Postman Student Expert",
+      image: postman,
+      link: "https://badgr.com/public/assertions/6yZ2-tgAR3-cyCNo-83otA",
+    },
+    {
+      name: "AI/ML Engineer",
+      image: ai,
+      link: "https://code.sliit.org/certificates/jmdv3fpmuv",
+    },
+    {
+      name: "Python(Basic) Certificate",
+      image: Hackerrank,
+      link: "https://www.hackerrank.com/certificates/9ccd3bf01800",
+    },
+    {
+      name: "Introduction to TensorFlow ",
+      image: dl,
+      link: "https://coursera.org/share/194788f686cfe02a6b61a5ca9e56d28c",
+    },
+    {
+      name: "Introduction to Deep Learning",
+      image: opencv,
+      link: "https://www.linkedin.com/learning/certificates/718f12b753a89cbbedea41876a4c0ca8b88c1d5420f05da2bc7bc2a3764e621e",
+    },
+    {
+      name: "Mobile Networking",
+      image:comptia,
+      link: "https://www.linkedin.com/learning/certificates/e46aabab5fe1836bb9fff370b909299d121a34214e3a80f000dd32c2df904f59",
+    },
+    
+    
+
+  ]
   
   const projects = [
+    {
+      name: "Car Rent",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/",
+    },
     {
       name: "Car Rent",
       description:
@@ -264,4 +325,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, projects, education };
+  export { services, technologies, experiences, projects, education, certificates };
