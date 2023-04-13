@@ -38,6 +38,9 @@ import dl from "./dl.png";
 import opencv from "./opencv.png";
 import comptia from "./comptia.png";
 
+import chess from "./chess.png";
+import hotel from "./hotel.png";
+
 export {
   logo,
   backend,
@@ -73,6 +76,8 @@ export {
   Hackerrank,
   dl,
   opencv,
-  comptia
+  comptia,
+  chess,
+  hotel
 
 };
