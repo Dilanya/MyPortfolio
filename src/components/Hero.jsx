@@ -21,37 +21,32 @@ const Hero = () => {
               and I am an AI/ML enthusiast
             </p>
         </div>
-        
+
       </div>
       <StarsCanvas/>
 
       <div className='absolute xs:bottom-10 bottom-32 
       w-full flex justify-center items-center'>
-        <a href='#about'>
-          <div
-            className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary
-            flex justify-center items-start p-2">
-              <motion.div 
-                 animate={{
-                  y:[0,24,0]
-                }}
-                transition={{
-                  duration: 1.5,
-                  repeat: Infinity,
-                  repeatType: 'loop'
-                }}
-                className='w-3 h-3 rounded-full bg-secondary mb-1'
 
-              />
-          </div>
-        </a>
+        {/* New div element for buttons */}
+        <div className="flex justify-center space-x-4">
+          
+          {/* Button to download resume */}
+          <a href="src\assets\resume.pdf" download>
+            <button className="bg-transparent hover:bg-white-100 text-white-700 font-semibold hover:text-black py-2 px-6 border border-blue-500 hover:border-transparent rounded">
+              Resume
+            </button>
+          </a>
+          
+          {/* Button to contact */}
+          <a href="mailto:dilanyasamarakoon@gmail.com">
+            <button className="bg-transparent hover:bg-white-100 text-white-700 font-semibold hover:text-black py-2 px-6 border border-blue-500 hover:border-transparent rounded">
+              Contact
+            </button>
+          </a>
+        </div>
       </div>
-
-
-
-
     </section>
-    
   )
 }
 
