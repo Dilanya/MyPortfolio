@@ -2,8 +2,13 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import {styles} from '../styles';
 import {StarsCanvas} from './canvas';
+import { Link } from 'react-router-dom';
+import {navLinks} from '../constants';
 
 const Hero = () => {
+
+  
+  
   return (
     <section className='relative w-full h-screen mx-auto '>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px]
@@ -39,11 +44,11 @@ const Hero = () => {
           </a>
           
           {/* Button to contact */}
-          <a href="mailto:dilanyasamarakoon@gmail.com">
-            <button className="bg-transparent hover:bg-white-100 text-white-700 font-semibold hover:text-black py-2 px-6 border border-blue-500 hover:border-transparent rounded">
+          <Link
+            to='/contact'
+            className="bg-transparent hover:bg-white-100 text-white-700 font-semibold hover:text-black py-2 px-6 border border-blue-500 hover:border-transparent rounded">
               Contact
-            </button>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
