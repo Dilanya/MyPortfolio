@@ -23,7 +23,7 @@ const Hero = () => {
             <br/> and I am an AI/ML enthusiast 
           </p>
           <div class="mt-8 flex justify-center space-x-4">
-            <a href="src\assets\resume.pdf" download>
+            <a href="\public\resume.pdf" download>
               <button class="bg-transparent hover:bg-white-100 text-white-700 font-semibold hover:text-black py-2 px-6 border border-blue-500 hover:border-transparent rounded">
                 Download Resume
               </button>
