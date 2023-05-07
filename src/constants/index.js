@@ -16,9 +16,6 @@ import {
     git,
     figma,
     docker,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     postman,
     Hackerrank,
@@ -26,7 +23,11 @@ import {
     opencv,
     comptia,
     chess,
-    hotel
+    hotel,
+    game,
+    leo,
+    portfolio,
+    healthcare
     
     
   } from "../assets";
@@ -197,13 +198,68 @@ import {
           name: "YoloV8",
           color: "green-text-gradient",
         },
+        
         {
           name: "ML",
           color: "pink-text-gradient",
         },
+        {
+          name: "Roboflow",
+          color: "blue-text-gradient",
+        },
+        
       ],
       image: chess,
       source_code_link: "https://github.com/Dilanya/Chess-Pieces-Detection",
+    },
+    {
+      name: "Leo MD306 Official Website",
+      description:
+        "This website showcases the work and achievements of Leos in Sri Lanka and Maldives. I was responsible for developing this website as the web developer.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JS",
+          color: "green-text-gradient",
+        },
+        
+        {
+          name: "Bootstrap",
+          color: "pink-text-gradient",
+        },
+        
+        
+      ],
+      image: leo,
+      source_code_link: "https://leomd306.org/",
+    },
+    {
+      name: "Portfolio Website",
+      description:
+        "created this project using modern web technologies such as React, Tailwind, Vite and Framer Motion. It is a fast, responsive and interactive website that demonstrates my abilities as a web developer.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "framer-motion",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/Dilanya/MyPortfolio",
     },
     {
       name: "Hotel Website",
@@ -224,15 +280,15 @@ import {
         },
       ],
       image: hotel,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Dilanya/HotelWeb",
     },
     {
       name: "Healthcare Mobile App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Mobile application that enables users to make appointments with their preferred health care providers, and contact them anytime through secure messaging. ",
       tags: [
         {
-          name: "react",
+          name: "react-native",
           color: "blue-text-gradient",
         },
         {
@@ -240,33 +296,33 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "firebase",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: healthcare,
+      source_code_link: "https://github.com/Dilanya/healthcare-mobile-app",
     },
     {
-      name: "Trip Guide",
+      name: "Ball Rolling Game",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The game created using Unity. The game consists of rolling a ball on a board using the arrow keys.The game uses collision detection to determine when the player wins.",
       tags: [
         {
-          name: "nextjs",
+          name: "Unity",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "C#",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Game",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: game,
+      source_code_link: "https://github.com/Dilanya/ball-rolling-game",
     },
   ];
   
