@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -32,14 +34,18 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
+    //service_vdifvqc
+//template_0gxwahb
+//R3lXF8J1-qee2vsAa
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Dilanya Samarakoon",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "dilanyasamarakoon@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -63,8 +69,9 @@ const Contact = () => {
         }
       );
   };
-
+  console.log(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID)
   return (
+    
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
@@ -74,6 +81,7 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        
 
         <form
           ref={formRef}

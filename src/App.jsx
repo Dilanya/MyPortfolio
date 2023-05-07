@@ -16,6 +16,7 @@ const App = () => {
         <About/>
         <Education/>
         <Certifications/>
+        
         <Works/>
         <div className='relative z-0'>
           <Contact/>

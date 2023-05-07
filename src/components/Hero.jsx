@@ -29,36 +29,44 @@ const Hero = () => {
               </button>
             </a>
           </div>
-
+          
           <div className=" left-0 right-0 flex justify-center items-center mt-8">
         <div className="flex space-x-4">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-            <button className="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
-              <i className="fab fa-github"></i>
+          <a href="https://github.com/Dilanya" target="_blank" rel="noopener noreferrer">
+            <button className="bg-gray-800 hover:bg-gray-700 text-white font-bold w-12 h-12 rounded-full">
+              <i className="fab fa-github fa-2x" ></i>
             </button>
           </a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-            <button className="bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-              <i className="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/dilanya-samarakoon" target="_blank" rel="noopener noreferrer">
+            <button className="bg-gray-800 hover:bg-gray-700 text-white font-bold w-12 h-12 rounded-full">
+              <i className="fab fa-linkedin fa-2x"></i>
             </button>
           </a>
-          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-            <button className="bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
-              <i className="fab fa-youtube"></i>
+          <a href="https://www.youtube.com/@dilanyasamarakoon5905" target="_blank" rel="noopener noreferrer">
+            <button className="bg-gray-800 hover:bg-gray-700 text-white font-bold w-12 h-12 rounded-full">
+              <i className="fab fa-youtube fa-2x"></i>
             </button>
           </a>
-          <a href="https://medium.com" target="_blank" rel="noopener noreferrer">
-            <button className="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 rounded">
-              <i className="fab fa-medium"></i>
+          <a href="https://medium.com/@dilanyasamarakoon" target="_blank" rel="noopener noreferrer">
+            <button className="bg-gray-800 hover:bg-gray-700 text-white font-bold w-12 h-12 rounded-full">
+              <i className="fab fa-medium fa-2x"></i>
+            </button>
+          </a>
+          <a href="https://www.pinterest.com/dilanyas" target="_blank" rel="noopener noreferrer">
+            <button className="bg-gray-800 hover:bg-gray-700 text-white font-bold w-12 h-12 rounded-full">
+              <i className="fab fa-pinterest fa-2x"></i>
             </button>
           </a>
         </div>
       </div>
+          
         </div>
+        
+        
 
         
       </div>
-
+      
       
       </div>
 
