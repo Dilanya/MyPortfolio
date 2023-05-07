@@ -69,7 +69,7 @@ const Contact = () => {
         }
       );
   };
-  console.log(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID)
+  
   return (
     
     <div
