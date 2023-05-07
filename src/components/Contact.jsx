@@ -34,9 +34,7 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
-    //service_vdifvqc
-//template_0gxwahb
-//R3lXF8J1-qee2vsAa
+    
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,

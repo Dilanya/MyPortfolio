@@ -8,18 +8,21 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import python from "./tech/python.png";
+import bootstrap from "./tech/bootstrap.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import firebase from "./tech/firebase.png";
+import AI from "./tech/AI.png";
+import PR from "./tech/PR.png";
+import PS from "./tech/PS.png";
+import XD from "./tech/XD.png";
+import postmanLogo from "./tech/postmanLogo.png";
 
 
 import postman from "./postman.png";
@@ -47,18 +50,21 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
+  python,
+  bootstrap,
   git,
   html,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  redux,
+  firebase,
   tailwind,
-  typescript,
-  threejs,
+  postmanLogo,
+  AI,
+  PR,
+  PS,
+  XD,
   postman,
   Link,
   ai,

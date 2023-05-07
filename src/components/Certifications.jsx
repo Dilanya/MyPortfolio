@@ -92,7 +92,7 @@ const Certifications = () => {
         <Carousel
           breakPoints={breakPoints}
           enableAutoPlay={true}
-          autoPlaySpeed={3000}
+          autoPlaySpeed={8000}
           showArrows={false}
           enableSwipe={true}
         >

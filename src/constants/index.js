@@ -5,18 +5,21 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    python,
     html,
     css,
     reactjs,
-    redux,
+    bootstrap,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    threejs,
+    postmanLogo,
+    AI,
+    PR,
+    PS,
+    firebase,
+    XD,
     postman,
     Hackerrank,
     dl,
@@ -68,6 +71,10 @@ import {
   
   const technologies = [
     {
+      name: "Python",
+      icon: python,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -79,21 +86,19 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    
     {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
       name: "Node JS",
@@ -104,21 +109,26 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Firebase",
+      icon: firebase,
+    },
+    
+    {
+      name: "Postman",
+      icon: postmanLogo,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "AdobeXD",
+      icon: XD,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
+    
+    
+    
   ];
   
   
