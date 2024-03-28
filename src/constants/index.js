@@ -133,7 +133,14 @@ import {
     
   ];
   
-  
+  const experience = [
+    {
+      title: "Backend Developer - Intern",
+      description:
+        "Rooster Commerce",
+      date: "2023 Sep - Present",
+      
+    }];
   
 
   const education = [
@@ -373,4 +380,4 @@ import {
     },
   ];
   
-  export { services, technologies,  projects, education, certificates };
+  export { services, technologies,  projects, education, certificates , experience};
