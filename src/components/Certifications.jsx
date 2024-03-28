@@ -77,6 +77,8 @@ const Certifications = () => {
     { width: 2400, itemsToShow: 10, itemsToScroll: 10 },
   ];
 
+  
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -93,8 +95,9 @@ const Certifications = () => {
           breakPoints={breakPoints}
           enableAutoPlay={true}
           autoPlaySpeed={8000}
-          showArrows={false}
+          showArrows={true}
           enableSwipe={true}
+          
         >
           {certificates.map((certificate, index) => (
             <CertificationCard

@@ -24,7 +24,7 @@ import PS from "./tech/PS.png";
 import XD from "./tech/XD.png";
 import postmanLogo from "./tech/postmanLogo.png";
 
-
+import ucsc from "./ucsc.jpeg";
 import postman from "./postman.png";
 import Link from "./link.png";
 import ai from "./ai.png";
@@ -39,6 +39,7 @@ import game from "./ball-roll.png";
 import leo from "./leo.png";
 import portfolio from "./portfolio.png";
 import healthcare from "./healthcare.png";
+import erp from "./erp.png"
 
 export {
   logo,
@@ -77,6 +78,8 @@ export {
   game,
   leo,
   portfolio,
-  healthcare
+  healthcare,
+  ucsc,
+  erp
 
 };

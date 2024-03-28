@@ -13,8 +13,7 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const EducationCard = ({ title, description,
-  date, image
-   }) => {
+  date, gpa, clz }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -29,7 +28,8 @@ const EducationCard = ({ title, description,
       <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{title}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
-      
+          <p className='mt-2 text-secondary text-[14px]'>{gpa}</p>
+          <p className='mt-2 text-secondary text-[14px]'>{clz}</p>
       </div>
 
       

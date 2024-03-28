@@ -30,7 +30,9 @@ import {
     game,
     leo,
     portfolio,
-    healthcare
+    healthcare,
+    ucsc,
+    erp
     
     
   } from "../assets";
@@ -52,16 +54,16 @@ import {
   
   const services = [
     {
+      title: "Backend Developer",
+      icon: backend,
+    },
+    {
       title: "Web Developer",
       icon: web,
     },
     {
       title: "React Native Developer",
       icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
     },
     {
       title: "AI/ML Enthusiast",
@@ -138,8 +140,17 @@ import {
     {
       title: "University of Sri Jayewardenepura, Sri Lanka",
       description:
-        "Bachelor of Science in Information and Com.Technology (UG)",
-      date: "2020 - Present",
+        "Bachelor of Science in Information and Com.Technology",
+      gpa : "GPA - 3.45/4.0" ,
+      clz: "Graduated with a Second Class Upper Division",
+      date: "2020 - 2024",
+      
+    },
+    {
+      title: "University of Colombo School of Computing",
+      description:
+        "MERN Stack Training Program - 60 hrs",
+      date: "2024",
       
     },
     {
@@ -159,6 +170,11 @@ import {
   ];
 
   const certificates = [
+    {
+      name: "MERN Stack Training Course",
+      image: ucsc,
+      link: "https://www.linkedin.com/posts/dilanya-samarakoon_mernstack-webdevelopment-continuouslearning-activity-7178832598247378944-WkI1?utm_source=share&utm_medium=member_desktop",
+    },
     {
       name: "Postman Student Expert",
       image: postman,
@@ -270,6 +286,27 @@ import {
       ],
       image: portfolio,
       source_code_link: "https://github.com/Dilanya/MyPortfolio",
+    },
+    {
+      name: "ERP System",
+      description:
+        "Web-based simple ERP system to handle customer details, Item Details and reports, PHP and MySQL used for the development",
+      tags: [
+        {
+          name: "PHP",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: erp,
+      source_code_link: "https://github.com/Dilanya/ERP-system",
     },
     {
       name: "Hotel Website",
