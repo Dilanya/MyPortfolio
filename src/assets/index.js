@@ -40,6 +40,7 @@ import leo from "./leo.png";
 import portfolio from "./portfolio.png";
 import healthcare from "./healthcare.png";
 import erp from "./erp.png"
+import ems from "./tech/EMS.png"
 
 export {
   logo,
@@ -80,6 +81,7 @@ export {
   portfolio,
   healthcare,
   ucsc,
-  erp
+  erp,
+  ems
 
 };

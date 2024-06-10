@@ -32,7 +32,8 @@ import {
     portfolio,
     healthcare,
     ucsc,
-    erp
+    erp,
+    ems
     
     
   } from "../assets";
@@ -293,6 +294,31 @@ import {
       ],
       image: portfolio,
       source_code_link: "https://github.com/Dilanya/MyPortfolio",
+    },
+    {
+      name: "Employee Management Web System",
+      description:
+        "Web-based simple Employee management system to handle employee details, and accounts, Java- Springboot used for the backend, React JS for the frontend and MySQL for Database used for the development",
+      tags: [
+        {
+          name: "Java-Springboot",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ReactJS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ems,
+      source_code_link: "https://github.com/Dilanya/EmployeeWebAPP",
     },
     {
       name: "ERP System",
